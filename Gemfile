@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", "~> 3.8.6"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.12", ">= 0.12.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -12,5 +12,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "html-proofer", ">= 3.13.0"
-gem "jekyll-sitemap"
+gem "html-proofer", ">= 3.14.1"
+gem "jekyll-sitemap", ">= 1.3.1"
