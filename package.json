@@ -18,7 +18,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulplog": "^1.0.0",
     "js-yaml": "^3.13.1",
@@ -29,7 +29,7 @@
     "uswds-gulp": "github:uswds/uswds-gulp",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.1"
+    "watchify": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
